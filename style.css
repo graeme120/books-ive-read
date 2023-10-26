@@ -1,0 +1,74 @@
+html {
+  margin: none;
+  padding: none;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#chart {
+  display: block;
+}
+
+.year-title {
+  font-size: 2svw;
+}
+
+#header {
+  margin-bottom: 5%;
+}
+
+.year-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 2.5%;
+  /* row-gap: 5%; */
+}
+
+.book-link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25%;
+  text-decoration: none;
+  color: #000;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+
+.item {
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  width: 80%;
+}
+
+.details {
+  flex-grow: 1; /* This ensures that the .details div takes up all available space at the bottom */
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5%;
+
+  align-items: center;
+  text-align: center;
+}
+
+.book-title {
+  font-style: italic;
+}
+
+.book-author {
+  font-style: normal;
+}
+
+/* .cover img {
+  max-width: 90%;
+} */
